@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BUDDY'S KITCHEN</title>
+        <style>
+            .head {
+                display: flex;
+                align-items: center;
+            }
+    
+            .head img {
+                width: 50px; /* Adjust as needed */
+                margin-right: 15px;
+            }
+    
+            .head h1 {
+                margin: 0;
+                font-weight: bold;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <img src="C:\Users\patha\OneDrive\Desktop\code\a-logo-design-featuring-the-name-buddy-s_9NwdUKOITOm1pkFGHjK9tg_xiahc9AVRVyTzbyQDb3V7g.jpeg" width="5%" alt="BD"/>
+                <h1><b>BUDDY'S KITCHEN</h1>
+                
+            </div><br>
+            <nav><a href="#menu">Menu</a><br><a href="#form">Order Form</a></nav><br><hr>
+            
+        </header>
+        <main>
+            <section>
+                <h2 id="menu" style="color: blueviolet;">Menu</h2>
+                <article>
+                    <h3>1. Fried Rice</h3>
+                    <img src="C:\Users\patha\OneDrive\Desktop\code\rice.webp"
+                        alt="Fried Rice" width="100" height="100">
+                    <p style="display: inline-block; ">Rice fried with chiken pieces with added spices<br> Price: Rs 100</p>
+                    <br>
+                    <input type="button" value="Order">
+                </article><br><hr width="90%">
+    
+                <article>
+                    <h3>2. Chicken Noodles</h3>
+                    <img src="C:\Users\patha\OneDrive\Desktop\code\noodles.webp"
+                        alt="Chicken noodles" width="100" height="100">
+                    <p style="display: inline-block; ">Soft noodles fried with fried chicken with extra spices<br>
+                        Price: Rs 110</p>
+                        <br>
+                        <input type="button" value="Order">
+                </article><br><hr width="90%">
+    
+                <article>
+                    <h3>3. Momo</h3>
+                    <img src="C:\Users\patha\OneDrive\Desktop\code\momo.webp"
+                        alt="Momo" width="100" height="100">
+                    <p style="display: inline-block;">Dumplings with chicken fillings with spices<br> Price: Rs 150</p>
+                    <br>
+                    <input type="button" value="Order">
+                </article><br><hr width="90%">
+                <article>
+                    <h3>4. Chicken 65</h3>
+                    <img src="C:\Users\patha\OneDrive\Desktop\code\chicken65.jpg" alt="Chicken 65" width="100" height="100"><br>
+                    <p style="display: inline-block">Fried Chicken with gravy<br>Price: Rs 130</p><br>
+                    <input type="button" value="Order">
+                </article>
+            </section><br><hr >
+
+            <section>
+                <h2 id="form" style="color: blueviolet;">Order</h2>
+                <form>
+                    <label for="main-course">What would you like to order?</label><br>
+                    <input type="number" id="main-course" min="1" max="4"><br>
+    
+                    <h3 style="margin: 0;">Sides:</h3>
+    
+                    <input type="checkbox" name="sides" id="side1">
+                    <label for="side1">Onion slices</label><br>
+    
+                    <input type="checkbox" name="sides" id="side2">
+                    <label for="side2">Fried pakoda</label><br>
+    
+                    <input type="checkbox" name="sides" id="side3">
+                    <label for="side3">Green cutney</label><br><br>
+    
+                    <label for="special-request"><b>Special request:</b></label><br>
+                    <input type="text" id="special-request"><br><br><br>
+    
+                    <button type="submit">Go to checkout</button>
+                </form>
+            </section>
+        </main>
+
+    </body>
+</html>
